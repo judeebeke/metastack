@@ -1,5 +1,5 @@
 import React from 'react';
-import { Author, Categories, CommentForm, Comments, PostDetail, PostWidgets } from '../components/Index';
+import { Author, Category, CommentForm, Comments, PostDetail, PostWidgets } from '../components/Index';
 import { getPostDetails, getPosts } from '@/services';
 
 const PostDetails = (posts) => {
@@ -17,7 +17,7 @@ const PostDetails = (posts) => {
             <div className="col-span-1 lg:col-span-4">
                 <div className="relative lg:sticky top-8">
                     <PostWidgets slug={posts.posts.slug} categories={posts.posts.categories.map((category) => category.slug)} />
-                    <Categories />
+                    <Category />
                 </div>
             </div>
         </div>

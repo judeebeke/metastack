@@ -2,7 +2,7 @@ import { getCategories } from "@/services"
 import Link from "next/link"
 import { useEffect, useState } from "react"
 
-const Categories = () => {
+const Category = () => {
   const [categories,  setCategories] = useState([])
 
   useEffect(() => {
@@ -25,4 +25,4 @@ const Categories = () => {
   )
 }
 
-export default Categories
+export default Category

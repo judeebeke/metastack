@@ -2,7 +2,7 @@ import Head from 'next/head';
 import {
   PostCard,
   PostWidgets,
-  Categories,
+  Category,
   FeaturedPost,
 } from './components/Index';
 import {getPosts} from '@/services';
@@ -23,7 +23,7 @@ export default function Home({posts}) {
         <aside className="col-span-4 lg:col-span-4">
           <div className="relative lg:sticky top-8 gap-y-0 lg:gap-y-8">
             <PostWidgets />
-            <Categories />
+            <Category />
           </div>
         </aside>
       </div>
