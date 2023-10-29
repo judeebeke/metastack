@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react'
-import { Header } from './Index';
+import { Header } from './Indexe';
 
 const Layout = ({children}) => {
   return (

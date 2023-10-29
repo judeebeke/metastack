@@ -4,7 +4,7 @@ import {
   PostWidgets,
   Category,
   FeaturedPost,
-} from '../components/Index';
+} from '../components/Indexe';
 import {getPosts} from '@/services';
 
 export default function Home({posts}) {
