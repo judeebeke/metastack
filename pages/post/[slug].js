@@ -1,6 +1,11 @@
 import React from 'react';
-import { Author, Category, CommentForm, Comments, PostDetail, PostWidgets } from '../../components/Indexe';
 import { getPostDetails, getPosts } from '@/services';
+import PostDetail from '@/components/PostDetail';
+import Author from '@/components/Author';
+import CommentForm from '@/components/CommentForm';
+import Comments from '@/components/Comments';
+import PostWidgets from '@/components/PostWidgets';
+import Category from '@/components/Category';
 
 const PostDetails = (posts) => {
    

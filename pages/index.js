@@ -1,11 +1,9 @@
 import Head from 'next/head';
-import {
-  PostCard,
-  PostWidgets,
-  Category,
-  FeaturedPosts,
-} from '../components/Indexe';
 import {getPosts} from '@/services';
+import FeaturedPosts from '@/components/FeaturedPosts';
+import PostCard from '@/components/PostCard';
+import PostWidgets from '@/components/PostWidgets';
+import Category from '@/components/Category';
 
 export default function Home({posts}) {
   return (
