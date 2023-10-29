@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import { CalendarDaysIcon } from '@heroicons/react/24/solid'
 import moment from 'moment/moment'
-import { getCategories, getCategoriesPosts, getPosts } from '@/services'
+import { getCategories, getCategoriesPosts } from '@/services'
 
 const Category = ({ categories }) => {
   return (

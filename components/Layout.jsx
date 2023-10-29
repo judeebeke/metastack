@@ -1,11 +1,12 @@
-import React from 'react'
-import { Header } from './Index'
+import React, {Fragment} from 'react'
+import { Header } from './Index';
+
 const Layout = ({children}) => {
   return (
-    <React.Fragment>
+    <Fragment>
       <Header />
       {children}
-    </React.Fragment>
+    </Fragment>
   )
 }
 
