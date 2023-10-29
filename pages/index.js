@@ -3,7 +3,7 @@ import {
   PostCard,
   PostWidgets,
   Category,
-  FeaturedPost,
+  FeaturedPosts,
 } from '../components/Indexe';
 import {getPosts} from '@/services';
 
@@ -13,7 +13,7 @@ export default function Home({posts}) {
       <Head>
         <title>METASTACK | The Blog!</title>
       </Head>
-      <FeaturedPost />
+      <FeaturedPosts />
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="lg:col-span-8 col-span-4">
           {posts.map ((post, index) => {
